@@ -1,5 +1,5 @@
 # User-Management
-Simple Application to manage Users and their details made using Node/Express as the backend, Pug for the templating engine for frontend and Postgresql for a database.
+Simple Application to manage Users and their details made using Node/Express as the backend, Pug for the templating engine for frontend and Postgresql for a database, sequelize as the ORM and npm module pg as a client to interact with the database. 
 
 ### To start
 

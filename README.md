@@ -4,7 +4,11 @@ Simple Application to manage Users and their details made using Node/Express as 
 ### To start
 
 > Clone the repository on your desktop.
+
 > cd into the project directory
+
 > Run the following commands in the terminal
+
 > `$ npm install`
+
 > `$ node start `

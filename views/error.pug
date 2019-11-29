@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  include common/head.pug
+  +head("Error")
+  body
+    header
+      include common/navbar.pug
+      +navbar(user)
+      .container.mt-4
+        .row
+          .col-md-12
+            h1= message
+            h2.text-danger= error.status
+            pre.text-danger #{error.stack}
+    include common/footer.pug
+    +footer()
+    script(src="/javascripts/leads.js")

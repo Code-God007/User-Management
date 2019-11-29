@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  include ../common/head.pug
+  +head("Edit Lead")
+  body
+    header
+      include ../common/navbar.pug
+      +navbar()
+      .container
+        .row
+          .col-md-6
+            form(action="/lead/" + lead.id + "/edit", method="POST")
+                .form-group
+                    .input-group.mt-3
+                        input(name="lead_email", type="email", placeholder="Enter your email address", value=lead.email).form-control
+                        .input-group-append
+                            button(type="submit").btn.btn-primary Save
+    include ../common/footer.pug
+        +footer()
+        script(src="/javascripts/leads.js")
